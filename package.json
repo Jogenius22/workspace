@@ -12,11 +12,12 @@
     "react-router-dom": "^5.2.0"
   },
   "scripts": {
-    "start": "yarn start",
-    "build": "yarn run build",
-    "test": "yarn test --env=jsdom",
-    "eject": "yarn eject"
-  },
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+  ,
   "engines": {
     "node": "18.x"
   },
