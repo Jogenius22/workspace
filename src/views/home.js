@@ -9,7 +9,7 @@ import Bot from "../assets/bot.svg";
 import User from "../assets/user.svg";
 
 const configuration = new Configuration({
-  apiKey: "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",
+  apiKey: pro.env.REACT_APP_OPENAI_KEY,
 });
 
 const openai = new OpenAIApi(configuration);
