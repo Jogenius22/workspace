@@ -12,13 +12,13 @@
     "react-router-dom": "^5.2.0"
   },
   "scripts": {
-    "start": "craco start",
-    "build": "craco build",
-    "test": "craco test --env=jsdom",
-    "eject": "craco eject"
+    "start": "yarn start",
+    "build": "yarn run build",
+    "test": "yarn test --env=jsdom",
+    "eject": "yarn eject"
   },
   "engines": {
-    "node": "16.x"
+    "node": "18.x"
   },
   "browserslist": {
     "production": [
